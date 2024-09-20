@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kayıt Formu</title>
+</head>
+<body>
+   <form action="login.html"><br>
+      <h3>KAYIT OLMAK İÇİN FORMU DOLDURUNUZ</h3>
+      <table>
+         <tr>
+            <td>
+               <label for="isim">Ad ve Soyad</label>
+               <td><input id="isim" placeholder="Adınızı ve Soyadınızı Yazınız" type="text" required></td>
+            </td>
+         </tr>
+         <tr>
+            <td>
+               <label for="mail">E mail:</label>
+        <td><input id="mail" placeholder="example@gmail.com"type="email" required>
+      </td>
+  </tr>
+  <tr>
+   <td>
+      <label for="number">Tel No:</label>
+   <td><input id="number" placeholder="05051234567" type="number" required></td>
+</td>  
+</tr>
+  <tr>
+   <td><Label for="password">Şifre:</Label>
+   <td><input id="password" type="password" required></td>
+  </tr>
+  <tr>
+   <td><label for="şifre">Şifreyi tekrar girin:</label>
+   <td><input id="şifre" type="password" required></td>
+  </tr>
+  
+   <td>Cinsiyet:</td>
+   <td><input type="radio" name="CinsiyetRadio" value="html">
+  <label for="html">Erkek</label>
+      <input type="radio" name="CinsiyetRadio" value="html">
+      <label for="html">Kadın</label>
+      <input type="radio" name="CinsiyetRadio" value="html">
+      <label for="html">Belirtmek İstemiyorum </label></td>
+      
+      <tr>
+         <td><label for="country">Ülke:</label>
+         <select name="country" id="country">
+            <option value="İngiltere">İngiltere</option>
+            <option value="Fransa">Fransa</option>
+  <option value="İtalya">İtalya</option>
+  <option value="Türkiye">Türkiye</option>
+            <option value="Çin">Çin</option>
+
+         </select> </td>
+      </tr>
+      <tr>
+         <td>
+            <label for="şehir">Şehir:</label>
+            <td><input id="şehir" placeholder="İkametgah ilinizi giriniz" type="text" required></td>
+         </td>
+      </tr>
+      <tr>
+         <td>
+            <label for="Posta">Posta Kodu:</label>
+            <td><input id="Posta" placeholder="Posta kodunuzu giriniz" type="text" required></td>
+         </td>
+      </tr>
+   </table>
+   <table>
+      <label for="w3review">Adres Detayları: <br></label>
+
+<textarea id="w3review" name="w3review" rows="4" cols="40">
+</textarea>
+</table>
+<tr>
+   <td>Doğum Tarihi:</td>
+   <td><input type="date"></td>
+</tr><br><br>
+<td>Hobiler:</td><br>
+<input type="checkbox" id="hobiler" name="hobi1" value="Kitap">
+  <label for="hobiler">Kitap Okumak </label><br>
+  <input type="checkbox" id="hobiler" name="hobi2" value="spor">
+  <label for="hobiler">Spor Yapmak </label><br>
+  <input type="checkbox" id="hobiler" name="hobi3" value="Müzik">
+  <label for="hobiler">Müzik Dinlemek</label><br>
+  <input type="checkbox" id="hobiler" name="hobi4" value="Seyahat">
+  <label for="hobiler">Seyahat Etmek</label><br><br>
+
+
+  
+
+   
+
+      
+    
+    
+<button type="submit">Kaydet</button>
+
+   </form> 
+   
+    
+</body>
+</html>
